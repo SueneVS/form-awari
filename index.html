@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Contato</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
-</head>
-<body>
-    <h1>Entre em contato</h1>
-    <form id="contact-form">
-        <input type="text" name="Nome" required/>
-        <input type="email" name="Email" required/>
-        <input type="text" name="Mensagem" required/>
-        <button>Enviar</button>
-    </form>
-    <script src="script.js"></script>
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title> Formulário de Contato</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <section class="form-wrapper">
+            <h1 class="form-title">Entre em Contato</h1>
+            <form id="contact-form">
+                <div class="form-input-group">
+                    <label for="name">Nome:</label><br>
+                    <input type="text"  id="name" name="name" required/>
+                </div>
+                <div class="form-input-group">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email"  name="email" required/>
+                </div>
+                <div class="form-input-group">
+                    <label for="message">Mensagem:</label><br>
+                    <input type="text" id="message" name="message" required/>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </section>
+        <script src="script.js"></script>
+    </body>
 </html>

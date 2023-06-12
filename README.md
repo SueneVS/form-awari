@@ -1,5 +1,5 @@
 # Prática: Formulário de Contato
-## Esta prática foi realizada durante a aula do curso de Front-End da Awari
+### Esta prática foi realizada durante a aula do curso de Front-End da Awari
 ### Nesta prática foi criada um formulário de contato usando HTML, CSS e Javascript. 
 ### As tarefas foram:
 - Criar um formulário de contato em HTML contendo os campos nome, email, mensagem e um botão “Enviar”;
